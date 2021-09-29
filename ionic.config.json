@@ -1,0 +1,7 @@
+{
+  "name": "Rana",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
