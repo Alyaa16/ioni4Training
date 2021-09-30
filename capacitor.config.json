@@ -1,6 +1,6 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "Rana",
-	"webDir": "www",
-	"bundledWebRuntime": false
+  "appId": "com.aliaa.linkedin.training",
+  "appName": "Linkedin-training",
+  "webDir": "www",
+  "bundledWebRuntime": false
 }

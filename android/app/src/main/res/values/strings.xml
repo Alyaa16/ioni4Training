@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Linkedin-training</string>
+    <string name="title_activity_main">Linkedin-training</string>
+    <string name="package_name">com.aliaa.linkedin.training</string>
+    <string name="custom_url_scheme">com.aliaa.linkedin.training</string>
+</resources>
