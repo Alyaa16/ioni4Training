@@ -8,33 +8,34 @@
 
 <ion-content [fullscreen]="true">
 
-    <!-- skeleton card when no data  -->
-    <div  *ngIf="!activityList">
+  <!-- skeleton card when no data  -->
+  <div  *ngIf="!activityList">
+  
+    <ion-card >
+      <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+      <ion-card-header>
+        <ion-skeleton-text animated style="width: 30%"></ion-skeleton-text>
+        <ion-skeleton-text animated></ion-skeleton-text>
+      </ion-card-header>
+    </ion-card> 
+  
+    <ion-card >
+      <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+      <ion-card-header>
+        <ion-skeleton-text animated style="width: 30%"></ion-skeleton-text>
+        <ion-skeleton-text animated></ion-skeleton-text>
+      </ion-card-header>
+    </ion-card> 
+
+    <ion-card >
+      <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
+      <ion-card-header>
+        <ion-skeleton-text animated style="width: 30%"></ion-skeleton-text>
+        <ion-skeleton-text animated></ion-skeleton-text>
+      </ion-card-header>
+    </ion-card> 
     
-      <ion-card >
-        <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
-        <ion-card-header>
-          <ion-skeleton-text animated></ion-skeleton-text>
-          <ion-skeleton-text animated></ion-skeleton-text>
-        </ion-card-header>
-      </ion-card> 
-    
-      <ion-card >
-        <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
-        <ion-card-header>
-          <ion-skeleton-text animated></ion-skeleton-text>
-          <ion-skeleton-text animated></ion-skeleton-text>
-        </ion-card-header>
-      </ion-card> 
-    
-      <ion-card >
-        <ion-skeleton-text class="skeleton-image" animated></ion-skeleton-text>
-        <ion-card-header>
-          <ion-skeleton-text animated></ion-skeleton-text>
-          <ion-skeleton-text animated></ion-skeleton-text>
-        </ion-card-header>
-      </ion-card>
-    </div>
+  </div>
  
   <ion-card [routerLink]="['activity-detail',activity.id]" routerDirection="forward" button
    *ngFor="let activity of (activityList | async)">

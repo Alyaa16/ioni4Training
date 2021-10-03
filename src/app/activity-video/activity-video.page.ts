@@ -7,7 +7,8 @@ import { ModalController, NavParams } from '@ionic/angular';
   styleUrls: ['./activity-video.page.scss'],
 })
 export class ActivityVideoPage implements OnInit {
-  videoURL:string
+  videoURL: string;
+  
   constructor(private _modalController:ModalController,navParams:NavParams) { 
     this.videoURL = navParams.get('videoURL');
     console.log(this.videoURL)
@@ -17,6 +18,6 @@ export class ActivityVideoPage implements OnInit {
   }
 
   closeModal(){
-this._modalController.dismiss()
+   this._modalController.dismiss()
   }
 }

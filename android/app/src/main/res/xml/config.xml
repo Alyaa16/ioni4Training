@@ -3,7 +3,7 @@
   <access origin="*" />
   
   <feature name="Camera">
-    <param name="ios-package" value="CDVCamera"/>
+    <param name="android-package" value="org.apache.cordova.camera.CameraLauncher"/>
   </feature>
 
   
